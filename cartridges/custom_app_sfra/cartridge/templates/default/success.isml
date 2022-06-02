@@ -1,0 +1,4 @@
+<!-- result from controller-->
+<div>
+<h1> Hello ${pdict.nickName} </h1>
+</div>

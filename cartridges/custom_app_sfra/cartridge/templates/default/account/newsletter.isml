@@ -1,0 +1,15 @@
+<!-- newsletter form -->
+<isdecorate template="common/layout/page"> 
+<div>
+<h1>Newsletter form</h1>
+</div>
+
+<form action="${pdict.actionUrl}" class="login" method="Post" name="NewsletterForm">
+<div class="form-group required">
+<label> Nickname: </label> <input type="input" id="nickname"
+class="form-control" name="nickname">
+</div>
+<button type="submit" class="btn btn-block btn-primary">Submit</button>
+<button type="submit" class="btn btn-block btn-primary">Cancel</button>
+</form>
+</isdecorate>
